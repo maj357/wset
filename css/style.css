@@ -13227,7 +13227,7 @@ body.ie ._ibg img {
   }
 
   .age {
-    background-image: none;
+    background-image: none !important;
   }
 
   .age__title {
