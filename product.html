@@ -17,7 +17,6 @@
 		<img class="loader__image" src="img/header/logo.svg" alt="Logo image">
 	</div>
 
-	
 	<div class="wrapper">
 
 		<header class="header">
@@ -25,7 +24,7 @@
     <div class="header__top-container">
     <div class="header__top animate__animated animate__fadeInUp">
       <div class="header__logo">
-        <a href="#"><img src="img/header/logo.svg" alt="logo"></a>
+        <a href="index.html"><img src="img/header/logo.svg" alt="logo"></a>
       </div>
       <div class="header__search">
         <div class="search-form">
@@ -38,7 +37,7 @@
         </div>
       </div>
       <div data-da=".menu__body, 991, last" class="header__buttons">
-        <a class="header__btn btn" href="#">Оформить заказ</a>
+        <a class="header__btn btn" href="personal.html">Оформить заказ</a>
         <div class="header__callback _icon-arrow-down">Связаться с нами</div>
       </div>
       <button type="button" class="icon-menu">
@@ -165,6 +164,9 @@
                 </ul>
               </li>
               <li class="menu__item">
+                <a href="box.html" class="menu__link animate__animated animate__fadeIn">Свой бокс</a>
+              </li>
+              <li class="menu__item">
                 <a href="blog.html" class="menu__link animate__animated animate__fadeIn">Блог</a>
               </li>
             </ul>
@@ -193,7 +195,7 @@
 							<a class="breadcrumb-link" href="index.html">
 								<li class="breadcrumb-item">Главная</li>
 							</a>
-							<a class="breadcrumb-link" href="#">
+							<a class="breadcrumb-link" href="wine.html">
 								<li class="breadcrumb-item">Вино и алкоголь</li>
 							</a>
 							<a class="breadcrumb-link" href="#">
@@ -683,8 +685,8 @@
 					<a href="#"><img src="img/icons/popup-contacts/face.svg" alt="facebook icon"></a>
 				</div>
 			</div>
-			<div class="popup_contact-buttom">
-				<buttom type="submit" class="popup_contact-btn btn">Узнать больше</buttom>
+			<div class="popup_contact-button">
+				<button type="submit" class="popup_contact-btn btn">Узнать больше</button>
 			</div>
 		</div>
 	</div>
@@ -709,8 +711,8 @@
 				</div>
 			</div>
 			<div class="cart--popup__footer-info">Важная и не очень информация по поводу доставки</div>
-			<div class="popup_contact-buttom">
-				<buttom type="buttom" class="popup_contact-btn cart--popup__btn">Оформить заказ</buttom>
+			<div class="popup_contact-button">
+				<button onclick="location.href='cart.html'" type="button" class="popup_contact-btn cart--popup__btn">Оформить заказ</button>
 			</div>
 		</div>
 	</div>
@@ -770,8 +772,8 @@
 						<img src="img/icons/popup-contacts/close-black.svg" alt="close icon"></a>
 				</div>
 			</div>
-			<div class="popup_contact-buttom">
-				<buttom type="buttom" class="popup_contact-btn cart--popup__btn">Оформить заказ</buttom>
+			<div class="popup_contact-button">
+				<button onclick="location.href='cart.html'" type="button" class="popup_contact-btn cart--popup__btn">Оформить заказ</button>
 			</div>
 		</div>
 	</div>
@@ -791,7 +793,7 @@
 		</div>
 		<div class="popup__in-cart--buttons">
 			<button type="submit" class="popup__in-cart--btn">В корзину</button>
-			<button type="submit" class="popup__in-cart--order">Оформить заказ</button>
+			<button onclick="location.href='cart.html'" type="button" class="popup__in-cart--order">Оформить заказ</button>
 		</div>
 	</div>
 </div>

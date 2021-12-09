@@ -1827,18 +1827,25 @@ body.ie ._ibg img {
           animation-delay: 2.5s;
 }
 
+.menu__item:nth-child(6) .animate__fadeIn {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+
 .animate__fadeInDown {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 2.6s;
-          animation-delay: 2.6s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .cart-header .animate__fadeInDown {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 3.1s;
-          animation-delay: 3.1s;
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
 }
 
 .header__anim .animate__fadeInUp {
